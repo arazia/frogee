@@ -1,0 +1,17 @@
+# addresses from https://datacrystal.tcrf.net/wiki/Battletoads_(Game_Boy)/RAM_map
+
+# Agent benchmarks
+CURR_LIVES_ADDR = 0xC60E
+CURR_HP_ADDR = 0xC60D
+CURR_CONTINUES_ADDR = 0xC63E
+
+# Level benchmarks
+SCORE_ADDRS = [0xFFE3, 0xFFE4, 0xFFE5, 0xFFE6, 0xFFE7, 0xFFE8]
+CURR_LEVEL_ID_ADDR = 0xCA39
+
+
+# CONSTS
+START_LIVES_CONST_ADDR = 0x1E392
+START_HP_CONST_ADDR = 0x0A137
+START_CONTINUES_CONST_ADDR = 0x1E397
+
